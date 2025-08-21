@@ -19,7 +19,7 @@ RUN npm install
 RUN npm run build
 
 # Expone el puerto 80, que es el puerto estándar
-EXPOSE 80
+EXPOSE 3549
 
 # Comando para iniciar el servidor Nginx y PHP-FPM
 CMD php-fpm -D && nginx -g 'daemon off;'
