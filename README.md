@@ -1,1 +1,3 @@
-# WAPPY-IA
+# MagicAI
+
+---
